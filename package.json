@@ -1,8 +1,8 @@
 {
-  "name": "@mtti/typescript-base",
-  "version": "0.0.0",
-  "description": "TypeScript backend project template",
-  "repository": "github:mtti/typescript-base",
+  "name": "@mtti/http-errors",
+  "version": "0.1.0",
+  "description": "HTTP error classes",
+  "repository": "github:mtti/http-errors",
   "author": "Matti Hiltunen",
   "license": "Apache-2.0",
   "private": true,
