@@ -6,5 +6,6 @@ export * from './NotAcceptableError';
 export * from './NotFoundError';
 export * from './NotImplementedError';
 export * from './TooManyRequestsError';
+export * from './UnauthorizedError';
 export * from './UnavailableForLegalReasonsError';
 export * from './UnsupportedMediaTypeError';
