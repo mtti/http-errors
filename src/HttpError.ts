@@ -1,3 +1,5 @@
+import { getReasonPhrase } from 'http-status-codes';
+
 export class HttpError extends Error {
   private _status: number;
 
@@ -5,7 +7,11 @@ export class HttpError extends Error {
     return this._status;
   }
 
-  constructor(status: number, message: string) {
+  public get reasonPhrase(): string {
+    return getReasonPhrase(this._status);
+  }
+
+  constructor(status: number, message?: string) {
     super(message);
     this._status = status;
   }
