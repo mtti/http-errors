@@ -22,7 +22,8 @@ import { HttpError, NotImplementedError } from '@mtti/http-errors';
 import express from 'express';
 
 /*
-Wrap your request handling code to catch any thrown exceptions and forward them to Express' error handling.
+Wrap your request handling code to catch any thrown exceptions and forward them
+to Express' error handling.
 */
 
 export type AsyncRequestHandler = (
