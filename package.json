@@ -1,6 +1,6 @@
 {
   "name": "@mtti/http-errors",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "HTTP error classes",
   "repository": "github:mtti/http-errors",
   "author": "Matti Hiltunen",
