@@ -1,4 +1,4 @@
-[![Written in TypeScript](https://flat.badgen.net/badge/icon/TypeScript?icon=typescript&label)](http://www.typescriptlang.org/) <!-- [![npm](https://flat.badgen.net/npm/v/@mtti/http-errors?icon=npm)](https://www.npmjs.com/package/@mtti/http-errors) --> [![License](https://flat.badgen.net/github/license/mtti/http-errors)](https://github.com/mtti/http-errors/blob/master/LICENSE)
+[![Written in TypeScript](https://flat.badgen.net/badge/icon/TypeScript?icon=typescript&label)](http://www.typescriptlang.org/) [![npm](https://flat.badgen.net/npm/v/@mtti/http-errors?icon=npm)](https://www.npmjs.com/package/@mtti/http-errors) [![License](https://flat.badgen.net/github/license/mtti/http-errors)](https://github.com/mtti/http-errors/blob/master/LICENSE)
 
 Throwable error classes corresponding to standard HTTP error codes for use with async request handlers.
 

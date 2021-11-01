@@ -1,7 +1,7 @@
 {
   "name": "@mtti/http-errors",
   "version": "1.0.0",
-  "description": "HTTP error classes",
+  "description": "Throwable HTTP error classes",
   "repository": "github:mtti/http-errors",
   "author": "Matti Hiltunen",
   "license": "Apache-2.0",
