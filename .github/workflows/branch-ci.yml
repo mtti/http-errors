@@ -1,0 +1,24 @@
+# Build and run tests on push to any branch except master
+
+name: Branch CI
+
+on:
+  push:
+    branches:
+      - '**'
+
+jobs:
+  run-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Initialize Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.x'
+
+      - run: npm install
+      - run: npm run build
+      - run: npm run test
