@@ -6,6 +6,7 @@ const nunjucks = require('nunjucks');
 
 /** List of class names not to generate automatically */
 const IGNORE = new Set([
+  'MethodNotAllowedError',
   'UnauthorizedError'
 ]);
 

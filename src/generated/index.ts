@@ -4,7 +4,6 @@ export * from './BadRequestError';
 export * from './PaymentRequiredError';
 export * from './ForbiddenError';
 export * from './NotFoundError';
-export * from './MethodNotAllowedError';
 export * from './NotAcceptableError';
 export * from './ProxyAuthenticationRequiredError';
 export * from './RequestTimeoutError';
